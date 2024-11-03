@@ -59,11 +59,6 @@ int main() {
     printf("PIB da cidade: %.2f\n", pib); // Formato para 2 casas decimais
     printf("Numero de Pontos Turisticos: %d\n", numeroPT);
 
-    int num;
-    printf("\n\n");
-    num = strlen(codigodacarta);
-    printf("%d", num);
-
     return 0;
 }
 
