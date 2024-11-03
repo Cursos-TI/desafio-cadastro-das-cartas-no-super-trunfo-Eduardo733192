@@ -12,7 +12,7 @@
 int main() {
 
     char estado;
-    char codigodacarta[3];
+    char codigodacarta[4];
     char nomedacidade[50];
     int populacao, numeroPT;
     float area, pib;
