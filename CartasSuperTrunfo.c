@@ -43,9 +43,13 @@ int main() {
     printf ("\n");
 
 
-    printf ("Digite o numero codigo do estado:%c \nDigite o numero codigo da carta:%s \n", estado, codigodacarta);
-    printf ("Nome da Cidade:%s \nNumero da população:%d \nÁrea da cidade:%f \n", nomedacidade, populacao, area);
-    printf ("PIB da cidade:%f \nNúmero de Pontos Turísticos:%d", pib, numeroPT);
+    printf("Codigo do estado: %c\n", estado);
+    printf("Codigo da carta: %s\n", codigodacarta);
+    printf("Nome da Cidade: %s\n", nomedacidade);
+    printf("Numero da populacao: %d\n", populacao);
+    printf("Area da cidade: %.2f\n", area); // Formato para 2 casas decimais
+    printf("PIB da cidade: %.2f\n", pib); // Formato para 2 casas decimais
+    printf("Numero de Pontos Turisticos: %d\n", numeroPT);
 
     return 0;
 }
